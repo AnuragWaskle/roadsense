@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Mobile (Expo)
+.expo/
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# ML Pipeline
+ml-pipeline/raw_data/
+ml-pipeline/processed_data/
+ml-pipeline/models/checkpoints/
+# Keep final models? Maybe too large for git?
+# ml-pipeline/models/final/
+
+# Editor
+.vscode/
+.idea/
